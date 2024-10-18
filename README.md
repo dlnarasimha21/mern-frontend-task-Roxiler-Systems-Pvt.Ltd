@@ -44,3 +44,19 @@ This project interacts with the following API endpoints:
 Transactions Table: Fetches transactions based on selected month and search criteria.
 Statistics API: Retrieves sales and item statistics for the selected month.
 Bar Chart API: Fetches item distribution based on price ranges for the selected month.
+
+## Environment Variables
+
+This project requires the following environment variables to be set up for proper functioning:
+
+**REACT_APP_API_URL**: The base URL for your backend API. For example:
+REACT_APP_API_URL=http://localhost:5000/api
+
+### Setting Up the Environment Variables
+
+1. Create a file named `.env` in the root of your project.
+2. Add the following line to the `.env` file:
+REACT_APP_API_URL=http://localhost:5000/api
+3. Save the file and ensure it is included in your `.gitignore` to prevent it from being pushed to your repository.
+
+> **Note:** Replace the URL with your actual backend API URL when deploying or sharing your application.
